@@ -15,14 +15,14 @@
 
 ## About The Project
 ![Product Name Screen Shot][product-screenshot]
-A simple real-time raytracing project built using GPU compute in Unity engine.
+A simple real-time ray-tracing project built using GPU compute in Unity engine.
 
 ### Built With
 This project is built using Unity [2019.4.35f1](https://unity3d.com/get-unity/download/archive).
 
 ## Getting Started
-By running the project, Unity renderer would be used by default, but by pressing the `SPACE` button, the same scene would get rendered using the raytracing path.
-This allows for easy comparison.
+By running the project, Unity renderer would be used by default, but by pressing the `SPACE` button, the same scene would get rendered using the ray-tracing path.
+This allows easy comparison.
 
 ## Features
 * Hard shadows
@@ -36,7 +36,7 @@ This allows for easy comparison.
 * Fake ambient occlusion
 
 ## License
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 [@cg_kru](https://twitter.com/cg_kru)
