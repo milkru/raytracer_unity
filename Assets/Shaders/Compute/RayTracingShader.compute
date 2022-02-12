@@ -1,0 +1,32 @@
+﻿#pragma kernel CSMain
+
+#include "Includes/Constants.hlsl"
+#include "Includes/Structs.hlsl"
+#include "Includes/Ray.hlsl"
+#include "Includes/Intersections.hlsl"
+#include "Includes/Lighting.hlsl"
+
+RWTexture2D<float4> _Result;
+float2 _RandomOffset;
+uint _ReflectionDepth;
+
+[numthreads(8, 8, 1)]
+void CSMain (uint3 id : SV_DispatchThreadID) {
+	uint width, height;
+
+	_Result.GetDimensions(width, height);
+	float2 homoCoord = (id.xy + float2(_RandomOffset.x, _RandomOffset.y)) / float2(width, height) * 2.0f - 1.0f;
+	Ray ray = CreateCameraRay(homoCoord);
+
+	float3 color = ZERO;
+	for (uint index = 0; index < _ReflectionDepth; ++index) {
+		RayHit rayHit = Trace(ray);
+		color += ray.energy * Shade(ray, rayHit);
+
+		if (!any(ray.energy)) {
+			break;
+		}
+	}
+
+    _Result[id.xy] = float4(color, 1);
+}
