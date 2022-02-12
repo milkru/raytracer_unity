@@ -12,7 +12,7 @@
 </details>
 
 ### About The Project
-A simple real-time ray-tracing project built using GPU compute in Unity engine.
+A simple real-time ray-tracing project built using GPU compute in Unity engine.<br/>
 ![Product Name Screen Shot][product-screenshot]
 
 ### Built With
