@@ -30,7 +30,7 @@ This allows easy comparison.
 * Specular lighting model
 * Sphere and mesh tracing
 * Point lights
-* Integrated in the existing Unity workflow, so it allows switching between default Unity renderer and ray tracing path
+* Integrated in the existing Unity workflow, which allows switching between default Unity renderer and ray tracing path
 * Accumulative anti aliasing implementation
 * Skybox rendering
 * Fake ambient occlusion
