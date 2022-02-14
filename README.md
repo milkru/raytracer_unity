@@ -16,7 +16,7 @@ This allows easy comparison. Every raytraced object should have `RayTracingTag.c
 * Reflections with customizable number of bounces
 * Specular lighting model
 * Sphere and triangle mesh tracing
-* Integrated in the existing Unity workflow, which allows switching between default Unity renderer and ray tracing path
+* Integrated into existing Unity workflow, allowing Unity rendering path and ray tracing path comparisons
 * Accumulative anti aliasing
 * Skybox rendering
 * Fake ambient occlusion
