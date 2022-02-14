@@ -1,9 +1,9 @@
-### About The Project
+### About the project
 A simple real-time ray-tracing project built using GPU compute in Unity engine.
   
 ![Product Name Screen Shot][product-screenshot]
 
-### Built With
+### Built with
 This project is built using Unity [2019.4.35f1](https://unity3d.com/get-unity/download/archive).
 
 ### How to use
