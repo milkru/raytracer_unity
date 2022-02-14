@@ -1,16 +1,3 @@
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#built-with">Built With</a></li>
-    <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
 ### About The Project
 A simple real-time ray-tracing project built using GPU compute in Unity engine.<br/>
 ![Product Name Screen Shot][product-screenshot]
@@ -35,8 +22,5 @@ This allows easy comparison.
 
 ### License
 Distributed under the MIT License. See `LICENSE` for more information.
-
-### Contact
-[@cg_kru](https://twitter.com/cg_kru)
 
 [product-screenshot]: Assets/Textures/ur.png
