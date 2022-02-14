@@ -8,16 +8,16 @@ This project is built using Unity [2019.4.35f1](https://unity3d.com/get-unity/do
 
 ### How to use
 By running the project, Unity renderer would be used by default, but by pressing the `SPACE` button, the same scene would get rendered using the ray-tracing path.
-This allows easy comparison.
+This allows easy comparison. Every raytraced object should have `RayTracingTag.cs` component attached to it.
 
 ### Features
+* Point lights
 * Hard shadows
 * Reflections with customizable number of bounces
 * Specular lighting model
-* Sphere and mesh tracing
-* Point lights
+* Sphere and triangle mesh tracing
 * Integrated in the existing Unity workflow, which allows switching between default Unity renderer and ray tracing path
-* Accumulative anti aliasing implementation
+* Accumulative anti aliasing
 * Skybox rendering
 * Fake ambient occlusion
 
