@@ -17,9 +17,9 @@ This allows easy comparison. Every raytraced object should have `RayTracingTag.c
 * Specular lighting model
 * Sphere and triangle mesh tracing
 * Integrated into existing Unity workflow, allowing Unity rendering path and ray tracing path comparisons
-* Accumulative anti aliasing
+* Temporal anti-aliasing
 * Skybox rendering
-* Fake ambient occlusion
+* Pseudo ambient occlusion
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
