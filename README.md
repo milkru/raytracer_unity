@@ -1,4 +1,4 @@
-## About the project
+## About
 A simple real-time ray-tracing project built using GPU compute in Unity engine.
   
 ![Product Name Screen Shot][product-screenshot]
